@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EkaNet_3
+namespace EkaNet_3_Homework_1
 {
     class CitizenFormater
     {
