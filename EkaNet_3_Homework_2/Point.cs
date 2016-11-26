@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace EkaNet_3_Homework_2
 {
@@ -18,21 +15,17 @@ namespace EkaNet_3_Homework_2
             Y = y;
         }
 
-        public double Move(double z, double przesuniecie)
+        public void Move(double MoveX, double MoveY)
         {
-            return (z + przesuniecie);
+            X += MoveX;
+            Y += MoveY;
         }
 
         public void Show(double x, double y)
         {
-            Console.WriteLine(Cords(x, y));
+            Console.WriteLine("X = " + X);
+            Console.WriteLine("Y = " + Y);
         }
 
-        public string Cords(double x, double y)
-        {
-            string cordy = "polozenie punktu po przesunieciu: " + x + " " + y;
-
-            return cordy;
-        }
     }
 }
