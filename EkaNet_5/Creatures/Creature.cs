@@ -20,7 +20,7 @@ namespace EkaNet_5.Creatures
 
         protected Creature(int xLimit, int ylimit, char symbol, ConsoleColor color)
         {
-            _healyh = 100;
+            _health = 100;
             _power = 10;
             _xLimit = xLimit;
             _yLimit = ylimit;
@@ -39,7 +39,7 @@ namespace EkaNet_5.Creatures
             var rnd = _rnd.NextDouble();
             if (rnd < 0.50)
             {
-                if (YCoordinate < _xLimit)
+                if (YCoordinate < _yLimit)
                 {
                     YCoordinate++;
                 }
@@ -76,12 +76,12 @@ namespace EkaNet_5.Creatures
 
         public virtual void GetDamage(int damage)
         {
-            _healyh -= damage;
+            _health -= damage;
         }
 
         public bool IsAlive()
         {
-            if (_healyh<=0)
+            if (_health <= 0)
             {
                 return false;
             }
