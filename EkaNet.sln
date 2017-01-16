@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkaNet_5", "EkaNet_5\EkaNet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkaNet_7", "EkaNet_7\EkaNet_7.csproj", "{AE342C12-19A2-4DBB-AEBE-9675C080E31F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EkaNet_8", "EkaNet_8\Entity\EkaNet_8.csproj", "{10234985-A4FD-4A5F-8973-EB25CD327DE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{AE342C12-19A2-4DBB-AEBE-9675C080E31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE342C12-19A2-4DBB-AEBE-9675C080E31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE342C12-19A2-4DBB-AEBE-9675C080E31F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10234985-A4FD-4A5F-8973-EB25CD327DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10234985-A4FD-4A5F-8973-EB25CD327DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10234985-A4FD-4A5F-8973-EB25CD327DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10234985-A4FD-4A5F-8973-EB25CD327DE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
